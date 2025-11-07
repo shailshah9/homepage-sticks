@@ -1,0 +1,57 @@
+[
+  {
+    "id": "sample1",
+    "title": "GitHub",
+    "url": "https://github.com",
+    "description": "Code hosting and version control",
+    "color": "#B4E5FF",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample2",
+    "title": "Stack Overflow",
+    "url": "https://stackoverflow.com",
+    "description": "Programming Q&A community",
+    "color": "#FFD4B4",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample3",
+    "title": "MDN Web Docs",
+    "url": "https://developer.mozilla.org",
+    "description": "Web development documentation",
+    "color": "#D4FFB4",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample4",
+    "title": "YouTube",
+    "url": "https://youtube.com",
+    "description": "Video streaming platform",
+    "color": "#FFB6C1",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample5",
+    "title": "Gmail",
+    "url": "https://mail.google.com",
+    "description": "Email service",
+    "color": "#FFE5B4",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample6",
+    "title": "Trello",
+    "url": "https://trello.com",
+    "description": "Project management tool",
+    "color": "#E5B4FF",
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  }
+]
+

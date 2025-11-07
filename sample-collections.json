@@ -1,0 +1,176 @@
+[
+  {
+    "id": "sample1",
+    "title": "Work Tools",
+    "color": "#F9FAFB",
+    "links": [
+      {
+        "id": "link1",
+        "title": "GitHub",
+        "url": "https://github.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link2",
+        "title": "GitLab",
+        "url": "https://gitlab.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link3",
+        "title": "Jira",
+        "url": "https://jira.atlassian.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample2",
+    "title": "Social Media",
+    "color": "#EEF2FF",
+    "links": [
+      {
+        "id": "link4",
+        "title": "Twitter",
+        "url": "https://twitter.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link5",
+        "title": "LinkedIn",
+        "url": "https://linkedin.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link6",
+        "title": "Instagram",
+        "url": "https://instagram.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample3",
+    "title": "Learning",
+    "color": "#F0FDF4",
+    "links": [
+      {
+        "id": "link7",
+        "title": "MDN Web Docs",
+        "url": "https://developer.mozilla.org",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link8",
+        "title": "Stack Overflow",
+        "url": "https://stackoverflow.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link9",
+        "title": "freeCodeCamp",
+        "url": "https://freecodecamp.org",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample4",
+    "title": "Entertainment",
+    "color": "#FFFBEB",
+    "links": [
+      {
+        "id": "link10",
+        "title": "YouTube",
+        "url": "https://youtube.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link11",
+        "title": "Netflix",
+        "url": "https://netflix.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link12",
+        "title": "Spotify",
+        "url": "https://spotify.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample5",
+    "title": "Shopping",
+    "color": "#FEF2F2",
+    "links": [
+      {
+        "id": "link13",
+        "title": "Amazon",
+        "url": "https://amazon.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link14",
+        "title": "eBay",
+        "url": "https://ebay.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "sample6",
+    "title": "Email & Communication",
+    "color": "#FAF5FF",
+    "links": [
+      {
+        "id": "link15",
+        "title": "Gmail",
+        "url": "https://mail.google.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link16",
+        "title": "Slack",
+        "url": "https://slack.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      },
+      {
+        "id": "link17",
+        "title": "Discord",
+        "url": "https://discord.com",
+        "createdAt": "2025-11-07T00:00:00.000Z",
+        "updatedAt": "2025-11-07T00:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-11-07T00:00:00.000Z",
+    "updatedAt": "2025-11-07T00:00:00.000Z"
+  }
+]
+

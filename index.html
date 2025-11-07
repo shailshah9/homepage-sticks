@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Homepage - Link Collections</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="controls">
+            <button class="btn btn-primary" id="addCollectionBtn">
+                <span class="btn-icon">+</span> New Collection
+            </button>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Search...">
+            </div>
+        </div>
+
+        <div class="notes-container" id="notesContainer">
+            <!-- Collection cards will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing collections -->
+    <div class="modal" id="collectionModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">New Collection</h2>
+                <button class="close-btn" id="closeModal">&times;</button>
+            </div>
+            <form id="collectionForm">
+                <div class="form-group">
+                    <label for="collectionTitle">Collection Name</label>
+                    <input type="text" id="collectionTitle" placeholder="e.g., Work Tools, Social Media..." required>
+                </div>
+                <div class="form-group">
+                    <label for="collectionColor">Color</label>
+                    <div class="color-picker">
+                        <input type="radio" name="color" value="#F9FAFB" id="color1" checked>
+                        <label for="color1" style="background-color: #F9FAFB;"></label>
+                        
+                        <input type="radio" name="color" value="#F3F4F6" id="color2">
+                        <label for="color2" style="background-color: #F3F4F6;"></label>
+                        
+                        <input type="radio" name="color" value="#E5E7EB" id="color3">
+                        <label for="color3" style="background-color: #E5E7EB;"></label>
+                        
+                        <input type="radio" name="color" value="#EEF2FF" id="color4">
+                        <label for="color4" style="background-color: #EEF2FF;"></label>
+                        
+                        <input type="radio" name="color" value="#F0FDF4" id="color5">
+                        <label for="color5" style="background-color: #F0FDF4;"></label>
+                        
+                        <input type="radio" name="color" value="#FFFBEB" id="color6">
+                        <label for="color6" style="background-color: #FFFBEB;"></label>
+                        
+                        <input type="radio" name="color" value="#FEF2F2" id="color7">
+                        <label for="color7" style="background-color: #FEF2F2;"></label>
+                        
+                        <input type="radio" name="color" value="#FAF5FF" id="color8">
+                        <label for="color8" style="background-color: #FAF5FF;"></label>
+                    </div>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelBtn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Collection</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Modal for adding/editing links within a collection -->
+    <div class="modal" id="linkModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="linkModalTitle">Add Link</h2>
+                <button class="close-btn" id="closeLinkModal">&times;</button>
+            </div>
+            <form id="linkForm">
+                <input type="hidden" id="linkCollectionId">
+                <div class="form-group">
+                    <label for="linkTitle">Link Title</label>
+                    <input type="text" id="linkTitle" placeholder="e.g., GitHub Dashboard" required>
+                </div>
+                <div class="form-group">
+                    <label for="linkUrl">URL</label>
+                    <input type="url" id="linkUrl" placeholder="https://example.com" required>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary" id="cancelLinkBtn">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Link</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
